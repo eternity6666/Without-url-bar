@@ -10,6 +10,8 @@ body {
 a {
     text-decoration: none;
     font-family: serif;
+    font-size: 20px;
+
     color: black;
 }
 
@@ -18,26 +20,24 @@ a {
     width: 20%;
     height: 100%;
     float: left;
-    background-color: white;
+
 }
 
-#top li {
+#top li ,#top div{
     width: 100%;
-    margin:30px 0;
+    background: rgba(51, 136, 255,0.1);
 }
 
-#top li :hover {
-    width:100%;
-    background: wheat;
-    font-size: 20px;
-    border-left: red solid 5px;
+#top a{
+    display: block;
+    color:white;
+    text-align: center;
 }
 
-#top div :hover {
-    background: wheat;
-    font-size: larger;
-    border-left: green solid 5px;
+#top li :hover,#top div :hover{
+    background:#317ff3e3;
 }
+
 
 #main {
     width: 80%;
