@@ -25,6 +25,7 @@ a {
 
 #top li ,#top div{
     width: 100%;
+    padding: 10px 0;
     background: rgba(51, 136, 255,0.1);
 }
 
@@ -34,7 +35,7 @@ a {
     text-align: center;
 }
 
-#top li :hover,#top div :hover{
+#top ul :hover,#top div:hover{
     background:#317ff3e3;
 }
 
@@ -47,6 +48,11 @@ a {
 #main a {
     display: block;
     background-color: white;
+}
+
+#main div a:hover{
+    background-color: black;
+    color:white;
 }
 
 #Frequently-used {
