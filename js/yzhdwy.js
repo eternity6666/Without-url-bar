@@ -34,3 +34,6 @@ for (var i = 0; i < list2.length; i++) {
     menu.appendChild(para);
 };
 
+
+
+//给frequent use中添加常用元素列表；按频繁次数排序；最多10个
