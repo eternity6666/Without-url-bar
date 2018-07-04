@@ -4,14 +4,14 @@
 }
 
 body {
-    background: rgb(244, 244, 242);
+    background-color:#2fe1d6;
+    /* background: rgb(244, 244, 242); */
 }
 
 a {
     text-decoration: none;
     font-family: serif;
     font-size: 20px;
-
     color: black;
 }
 
@@ -26,7 +26,8 @@ a {
 #top li ,#top div{
     width: 100%;
     padding: 10px 0;
-    background: rgba(51, 136, 255,0.1);
+    background-color: #2fe1d6;
+    /* background: rgba(51, 136, 255,0.1); */
 }
 
 #top a{
@@ -36,7 +37,8 @@ a {
 }
 
 #top ul :hover,#top div:hover{
-    background:#317ff3e3;
+    background-color: #97ffcf;
+    /* background:#317ff3e3; */
 }
 
 
@@ -51,8 +53,10 @@ a {
 }
 
 #main div a:hover{
-    background-color: black;
-    color:white;
+    /* background-color: black; */
+    background-color:#fffb97;
+    color:black;
+    /* color:white; */
 }
 
 #Frequently-used {
@@ -65,4 +69,13 @@ h5 {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     padding-top: 1%;
     padding-bottom: 1%;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+
+    border-radius: 50%;
+
+    
 }
